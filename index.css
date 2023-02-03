@@ -1,0 +1,43 @@
+#loader{
+    display: none;
+    background: rgba(0, 0, 0, 0.505) url('./img/preloader.gif') no-repeat center;
+    background-size: 4%;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+}
+#loader.show{
+    display: block;
+}
+
+.custom-coin-card{
+   
+    border-radius: 50px;
+}
+
+.custom-card-title{
+    border-bottom: 0.5px soild white;
+}
+
+.coin-head-link{
+    text-decoration: none;
+}
+.coin-info{
+    border-radius: 50px;
+}
+.custom-search{
+    background-color:  #121212;
+}
+.showcase::before{
+    display: block;
+    height: 55px;
+   content: " ";
+  
+}
+.top-charts{
+    border-radius: 50px;
+}
+.custom-placeholder{
+    border-radius: 50px;
+}
